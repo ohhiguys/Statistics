@@ -1,20 +1,20 @@
 package ru.netology.stats;
 
 public class StatsService {
-    public int sumSales(int[] arr) {
+    public int sumSales(int[] sales) {
         int sum = 0;
-        for (int s : arr) {
-            sum += s;
+        for (int sale : sales) {
+            sum += sale;
         }
         return sum;
     }
 
-    public int averageSales(int[] arr) {
+    public int averageSales(int[] sales) {
         int sum = 0;
-        for (int y : arr) {
-            sum += y;
+        for (int sale : sales) {
+            sum += sale;
         }
-        return sum / arr.length;
+        return sum / sales.length;
     }
 
     public int maxSales(long[] sales) {
